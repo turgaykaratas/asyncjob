@@ -1,6 +1,6 @@
 <?php
 
-abstract class AbstructJob
+abstract class AbstractJob
 {
     /**
      * @return mixed

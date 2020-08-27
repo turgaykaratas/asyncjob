@@ -26,9 +26,9 @@ class AsyncJob
 
     /**
      * AsyncJob constructor.
-     * @param AbstructJob $job
+     * @param AbstractJob $job
      */
-    public function __construct(AbstructJob $job)
+    public function __construct(AbstractJob $job)
     {
         $encodeJob = base64_encode(\serialize($job));
 

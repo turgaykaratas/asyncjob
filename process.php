@@ -7,7 +7,7 @@ require_once 'class_loader.php';
 $encodeJob = $argv[1];
 
 /**
- * @var AbstructJob $job
+ * @var AbstractJob $job
  */
 $job = unserialize(base64_decode($encodeJob));
 
